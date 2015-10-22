@@ -1,0 +1,22 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+.jumbotron {
+  padding-top: 50px;
+  padding-bottom: 20px;  
+  margin-bottom: 30px;
+  color: inherit;
+  background-color: #fff;
+}
+
+.jumbotron img {
+  margin-top: 20px;
+  float: left;
+  /* width: 100px; */
+  /* height: 100px; */
+  /*background: #555;*/
+}
+
+.jumbotron h1 {
+  position: relative;
+  top: 18px;
+  left: 10px;
+}
